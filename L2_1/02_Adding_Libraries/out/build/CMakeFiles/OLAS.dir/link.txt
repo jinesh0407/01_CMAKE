@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -Wl,--enable-auto-import CMakeFiles/OLAS.dir/main.cpp.o -o OLAS.exe -Wl,--out-implib,libOLAS.dll.a -Wl,--major-image-version,0,--minor-image-version,0   -L/cygdrive/d/CMAKE/01_CMAKE/L2_1/02_Adding_Libraries/adder  Adder/libadder.a 

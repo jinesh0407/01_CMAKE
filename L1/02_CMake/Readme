@@ -1,0 +1,14 @@
+1. Compatibility: Without , cmake_minimum_required(....) 
+               CMake doesn’t know which policies to apply, which can cause inconsistent behavior across different versions.
+• 	Best practice: Always put this command at the very top of your CMakeLists.txt
+
+2. cmake -S . -B out/build
+   <!-- At this point, if we modify the code. No need to re-run cmake commands -->
+   <!-- But if file deleted or added, need to RUN cmake command -->
+   <!-- <OPTION 1> -->
+   cd out/build
+   make
+   ./OLAS
+   <!-- <OPTION 2> -->
+   make -C out/build
+   ./out/build/OLAS
