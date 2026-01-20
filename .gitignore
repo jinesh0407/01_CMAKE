@@ -1,0 +1,13 @@
+L1/02_CMake/out/build/
+L1/02_Empty_CMakeLists/out/build/
+L1/03_CMake/out/build/
+# --------------------
+L2_1/01_Adding_Files/out/build/
+L2_1/02_Adding_Libraries/out/build/
+L2_2_LINUX/01_Trim/build/
+# ----------------------
+L2_3_LIBRARY/01_SomeLib/build/
+L2_3_LIBRARY/02_Use_SomeLib/build/
+# ----------------------
+L2_4_LIBRARY_INSTALL/01_SomeLib/build/
+L2_4_LIBRARY_INSTALL/02_Use_SomeLib/build/

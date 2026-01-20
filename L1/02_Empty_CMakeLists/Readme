@@ -1,0 +1,27 @@
+$ mkdir -p out/build
+# i)
+$ cd out/build
+$ cmake -S ../.. -B .
+# or
+# ii)
+$ cmake -S . -B .\out\build\
+# ==================================================================
+# In out/build, file generated
+# Mode                 LastWriteTime         Length Name
+# ----                 -------------         ------ ----
+# d-----        29-03-2026  05.22 AM                CMakeFiles
+# -a----        29-03-2026  05.22 AM          15534 CMakeCache.txt
+# -a----        29-03-2026  05.22 AM           1543 cmake_install.cmake
+# -a----        29-03-2026  05.22 AM           4172 Makefile
+# =================================================================
+$ cat Makefile
+# Here you will get were source directory located. were binary directory is located.
+# It has just root set-up.
+# It has no gcc.
+
+# The top-level source directory on which CMake was run.
+CMAKE_SOURCE_DIR = /cygdrive/d/CMAKE/01_CMAKE/L1/02_Empty_CMakeLists
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /cygdrive/d/CMAKE/01_CMAKE/L1/02_Empty_CMakeLists/out/build
+=================================================================

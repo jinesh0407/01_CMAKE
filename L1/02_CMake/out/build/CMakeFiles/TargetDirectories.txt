@@ -1,3 +1,0 @@
-/cygdrive/d/CMAKE/01_CMAKE/L1/02_CMake/out/build/CMakeFiles/OLAS.dir
-/cygdrive/d/CMAKE/01_CMAKE/L1/02_CMake/out/build/CMakeFiles/edit_cache.dir
-/cygdrive/d/CMAKE/01_CMAKE/L1/02_CMake/out/build/CMakeFiles/rebuild_cache.dir

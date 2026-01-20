@@ -1,0 +1,4 @@
+On Command Line
+PS D:\CMAKE\01_CMAKE\L1\01_MakeFile> make
+g++ main.cpp -o out
+PS D:\CMAKE\01_CMAKE\L1\01_MakeFile> .\out.exe

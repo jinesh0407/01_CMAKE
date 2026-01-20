@@ -1,0 +1,29 @@
+1. $cmake
+Usage
+
+  cmake [options] <path-to-source>
+  cmake [options] <path-to-existing-build>
+  cmake [options] -S <path-to-source> -B <path-to-build>
+
+Specify a source directory to (re-)generate a build system for it in the current working directory.
+Specify an existing build directory to re-generate its build system.
+===========================================================================================================================
+2. Compatibility: Without , cmake_minimum_required(....)
+               CMake doesn’t know which policies to apply, which can cause inconsistent behavior across different versions.
+• 	Best practice: Always put this command at the very top of your CMakeLists.txt
+
+2. cmake -S . -B out/build
+   <!-- At this point, if we modify the code. No need to re-run cmake commands -->
+   <!-- But if file deleted or added, need to RUN cmake command -->
+   <!-- <OPTION 1> -->
+   cd out/build
+   make
+   ./OLAS
+   <!-- <OPTION 2> -->
+   make -C out/build
+   ./out/build/OLAS
+
+<!-- other way you can have cmake command -->
+cd /build
+cmake ..
+make
